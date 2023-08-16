@@ -179,3 +179,9 @@ main {
     grid-row: 28 / 80;
 
 }
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
