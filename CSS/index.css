@@ -25,7 +25,7 @@ main {
 .presentation {
     display: flex;
     flex-direction: column;
-    width: 1500px;
+    width: 100%;
     height: fit-content;
     margin: auto;
     justify-content: center;
@@ -49,7 +49,7 @@ main {
 
 .information {
     display: grid;
-    grid-template-columns: 1200px 1fr;
+    grid-template-columns: 800px 1fr;
     margin-top: 100px;
     width: 100%;
     height: 600px;
@@ -57,6 +57,19 @@ main {
 
 }
 
+.frame { 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.frame > img {
+    max-width: 719px;
+    max-height: 347px;
+    width: 100%;
+    height: fit-content;
+}
 .item {
     display: flex;
     width: 750px;
@@ -79,6 +92,31 @@ main {
 
 }
 .item > .text{
+
     width: fit-content;
     height: 100%;
+    padding-left: 10px;
+}
+
+.item > .text  > p, h3 {
+    text-align: center;
+}
+
+.disclosure  {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.ItemDisclosure {
+    width: 700px;
+    height: 600px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-image: url("/midias/PNG/background.png");
+    background-size: cover;
 }
