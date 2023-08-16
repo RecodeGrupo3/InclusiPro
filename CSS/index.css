@@ -17,7 +17,8 @@ header , footer{
 
 main {
     width: 100%;
-    height: 2000px;
+    min-height: 2000px;
+    height: fit-content;
     background-image: linear-gradient(to right ,#61FEB9, #91B3D9, #C558FF);
 
 }
@@ -25,7 +26,7 @@ main {
 .presentation {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width:  80%;
     height: fit-content;
     margin: auto;
     justify-content: center;
@@ -112,11 +113,53 @@ main {
 
 }
 
-.ItemDisclosure {
+.AppDisclosure,  .BlogDisclosure {
+    display: grid;
     width: 700px;
     height: 600px;
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 25px;
-    background-image: url("/midias/PNG/background.png");
-    background-size: cover;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    background-image: url("/midias/PNG/background-right.png");
+    background-size: 100% 100%;
+    filter: drop-shadow(0px 0px 10px #000);
+    
+}
+.AppDisclosure  p,h1  {
+    text-align: center;
+}
+.BlogDisclosure p,h1{
+    text-align: center;
+}
+
+.AppDisclosure > .text {
+    width: 100%;
+    height: 100%;
+    grid-column: 15 / 90;
+    grid-row: 28 / 50;
+
+}
+.AppDisclosure > .imgs {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    grid-column: 15 / 90;
+    grid-row: 50 / 80;
+
+}
+.AppDisclosure > .imgs > img{
+    width: 30%;
+    height: 75%;
+    margin: auto;
+
+}
+
+.BlogDisclosure > .text {
+    width: 100%;
+    height: 100%;
+    grid-column: 15 / 90;
+    grid-row: 28 / 80;
+
 }
