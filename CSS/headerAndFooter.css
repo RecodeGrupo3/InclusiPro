@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 153px;
+}
+
+nav {
+    height: 153px;
+    background-color: white;
+}
+.svg-site{
+    bottom: 0%;
+    height: 53px;
+    z-index: 1;
+}
+
+footer  {
+    width: 100%;
+    height: 300px;
+    background: #FFF;
+    align-content: space-between;
+}
+.svg-footer{
+    bottom: 0;
+}
+

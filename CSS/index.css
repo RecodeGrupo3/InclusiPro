@@ -4,32 +4,16 @@
     margin: 0;
     border: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-header {
-    width: 100%;
-    height: 153px;
 }
 
-nav {
-    height: 153px;
-    background-color: white;
-}
-.svg-site{
-    bottom: 0%;
-    height: 53px;
-    z-index: 1;
+
+/* Para estilizar <h1> */
+p , h1{
+    all: initial;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-footer {
-    width: 100%;
-    height: 556px;
-    background: #FFF;
-    align-content: space-between;
-}
-.svg-footer{
-    bottom: 0;
-}
+
 
 main {
     width: 100%;
@@ -69,7 +53,8 @@ main {
     grid-template-columns: 800px 1fr;
     margin-top: 100px;
     width: 100%;
-    height: 600px;
+    height: 800px;
+    padding: 100px 0px;
     background-color: white;
 
 }
@@ -109,7 +94,6 @@ main {
 
 }
 .item > .text{
-
     width: fit-content;
     height: 100%;
     padding-left: 10px;
@@ -151,17 +135,20 @@ main {
 }
 
 .AppDisclosure > .text {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     grid-column: 15 / 90;
     grid-row: 28 / 50;
+    justify-content: center;
 
 }
 .AppDisclosure > .imgs {
     display: flex;
     width: 100%;
     height: 100%;
-    grid-column: 15 / 90;
+    grid-column: 18 / 90;
     grid-row: 50 / 80;
 
 }
@@ -173,15 +160,21 @@ main {
 }
 
 .BlogDisclosure > .text {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     grid-column: 15 / 90;
     grid-row: 28 / 80;
+    justify-content: center;
 
 }
-ul{
-    list-style-type: none;
+.BlogDisclosure > .text > p , .AppDisclosure > .text > p{ 
+    font-size: 36px;
+    text-align: center;
 }
-li{
-    list-style-type: none;
+.BlogDisclosure > .text > h1 , .AppDisclosure > .text > h1{ 
+    font-size: 48px;
+    text-align: center;
 }
+
