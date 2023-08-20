@@ -3,30 +3,28 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 
 /* Para estilizar <h1> */
-p , h1{
+p,
+h1 {
     all: initial;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
 
 main {
     width: 100%;
     min-height: 2000px;
     height: fit-content;
-    background-image: linear-gradient(to right ,#61FEB9, #91B3D9, #C558FF);
+    background-image: linear-gradient(to right, #61FEB9, #91B3D9, #C558FF);
 
 }
 
 .presentation {
     display: flex;
     flex-direction: column;
-    width:  80%;
+    width: 80%;
     height: fit-content;
     margin: auto;
     justify-content: center;
@@ -34,14 +32,14 @@ main {
 
 }
 
-.presentation > h1 {
+.presentation>h1 {
     margin-top: 30px;
     text-align: center;
     font-size: 100px;
 
 }
 
-.presentation > h2 {
+.presentation>h2 {
     margin-top: 20px;
     text-align: center;
     font-size: 40px;
@@ -59,52 +57,56 @@ main {
 
 }
 
-.frame { 
+.frame {
     display: flex;
     justify-content: end;
     align-items: center;
 
 }
 
-.frame > img {
+.frame>img {
     max-width: 719px;
     max-height: 347px;
     width: 100%;
     height: fit-content;
 }
+
 .item {
     display: flex;
     width: 750px;
     height: 150px;
     padding-left: 10px;
-    
+
 }
 
-.item > .img {
+.item>.img {
     display: flex;
     width: 150px;
     justify-content: center;
     align-items: center;
 
 }
-.item > .img > img {
+
+.item>.img>img {
     margin: auto;
     width: 80%;
     height: 80%;
 
 }
-.item > .text{
+
+.item>.text {
     width: fit-content;
     height: 100%;
     padding-left: 10px;
 }
 
-.item > .text  > p, h3 {
+.item>.text>p,
+h3 {
     text-align: center;
 }
 
-.disclosure  {
-    display:flex;
+.disclosure {
+    display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: fit-content;
@@ -113,7 +115,8 @@ main {
 
 }
 
-.AppDisclosure,  .BlogDisclosure {
+.AppDisclosure,
+.BlogDisclosure {
     display: grid;
     width: 700px;
     height: 600px;
@@ -125,16 +128,20 @@ main {
     background-image: url("/midias/PNG/background-right.png");
     background-size: 100% 100%;
     filter: drop-shadow(0px 0px 10px #000);
-    
+
 }
-.AppDisclosure  p,h1  {
-    text-align: center;
-}
-.BlogDisclosure p,h1{
+
+.AppDisclosure p,
+h1 {
     text-align: center;
 }
 
-.AppDisclosure > .text {
+.BlogDisclosure p,
+h1 {
+    text-align: center;
+}
+
+.AppDisclosure>.text {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -144,7 +151,8 @@ main {
     justify-content: center;
 
 }
-.AppDisclosure > .imgs {
+
+.AppDisclosure>.imgs {
     display: flex;
     width: 100%;
     height: 100%;
@@ -152,14 +160,15 @@ main {
     grid-row: 50 / 80;
 
 }
-.AppDisclosure > .imgs > img{
+
+.AppDisclosure>.imgs>img {
     width: 30%;
     height: 75%;
     margin: auto;
 
 }
 
-.BlogDisclosure > .text {
+.BlogDisclosure>.text {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -169,12 +178,15 @@ main {
     justify-content: center;
 
 }
-.BlogDisclosure > .text > p , .AppDisclosure > .text > p{ 
+
+.BlogDisclosure>.text>p,
+.AppDisclosure>.text>p {
     font-size: 36px;
     text-align: center;
 }
-.BlogDisclosure > .text > h1 , .AppDisclosure > .text > h1{ 
+
+.BlogDisclosure>.text>h1,
+.AppDisclosure>.text>h1 {
     font-size: 48px;
     text-align: center;
 }
-
