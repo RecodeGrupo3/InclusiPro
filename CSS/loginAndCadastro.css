@@ -1,0 +1,17 @@
+.container-all {
+    height: 600px;
+}
+.container-all-cadastro {
+    height: 800px;
+}
+
+.form-border {
+    border-radius: 15px;
+}
+
+.btn-form-cad {
+    border-radius: 25px;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+}
