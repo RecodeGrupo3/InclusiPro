@@ -7,12 +7,8 @@
 }
 
 /* Para estilizar <h1> */
-<<<<<<< Updated upstream
-p,
-h1 {
-=======
+
 p , h1, h3{
->>>>>>> Stashed changes
     all: initial;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -193,10 +189,9 @@ h1 {
 .AppDisclosure>.text>h1 {
     font-size: 48px;
     text-align: center;
-<<<<<<< Updated upstream
 }
-=======
-}
+
+
 
 /*------------------------------------------------------------------Responsividade---------------------------------------------------------------------------*/
 @media only screen and (max-width: 320px) {
@@ -259,5 +254,3 @@ h1 {
 
 
 }
-
->>>>>>> Stashed changes
