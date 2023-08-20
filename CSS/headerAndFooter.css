@@ -12,7 +12,7 @@ header {
 }
 
 nav {
-    height: 153px;
+    height: fit-content;
     background-color: white;
 }
 .svg-site{

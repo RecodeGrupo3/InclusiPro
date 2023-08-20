@@ -7,8 +7,12 @@
 }
 
 /* Para estilizar <h1> */
+<<<<<<< Updated upstream
 p,
 h1 {
+=======
+p , h1, h3{
+>>>>>>> Stashed changes
     all: initial;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -120,9 +124,9 @@ h3 {
     display: grid;
     width: 700px;
     height: 600px;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 25px;
     grid-template-columns: repeat(100, 1fr);
     grid-template-rows: repeat(100, 1fr);
     background-image: url("/midias/PNG/background-right.png");
@@ -189,4 +193,71 @@ h1 {
 .AppDisclosure>.text>h1 {
     font-size: 48px;
     text-align: center;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+/*------------------------------------------------------------------Responsividade---------------------------------------------------------------------------*/
+@media only screen and (max-width: 320px) {
+    .presentation > h1 {
+        font-size: 36px;
+    }
+    .presentation > h2 {
+        font-size: 24px;
+    }
+    .information{
+        display: flex;
+        padding: 50px 0px;
+        width: 100%;
+    }
+    .frame{
+        display: none;
+    }
+
+    .item {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        margin: 50px 0px;
+        align-items: center;
+
+    }
+
+    .item > .text > h3{
+        font-size: 3vw;
+    }
+    .item > .text > p{
+        font-size: 1vw;
+    }
+
+    .information > .item {
+        width: 100%;
+        height: fit-content;
+    }
+    .item > .img {
+        width: 100px;
+        height: fit-content;
+    }
+
+    .disclosure {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+@media only screen and (min-width: 1201px) {
+
+
+}
+
+>>>>>>> Stashed changes
