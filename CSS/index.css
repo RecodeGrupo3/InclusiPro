@@ -218,6 +218,10 @@ h1 {
     box-shadow: -4px 4px 0px 0px #61FFB8;
 }
 
+.logo {
+    width: 100%;
+    height: 70px;
+}
 
 /*------------------------------------------------------------------Responsividade---------------------------------------------------------------------------*/
 @media only screen and (max-width: 320px) {
@@ -267,9 +271,95 @@ h1 {
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
+    .presentation > h1 {
+        font-size: 36px;
+    }
+    .presentation > h2 {
+        font-size: 24px;
+    }
+    .information{
+        display: flex;
+        padding: 50px 0px;
+        width: 100%;
+    }
+    .frame{
+        display: none;
+    }
+
+    .item {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        margin: 50px 0px;
+        align-items: center;
+
+    }
+
+    .item > .text > h3{
+        font-size: 3vw;
+    }
+    .item > .text > p{
+        font-size: 1vw;
+    }
+
+    .information > .item {
+        width: 100%;
+        height: fit-content;
+    }
+    .item > .img {
+        width: 100px;
+        height: fit-content;
+    }
+
+    .disclosure {
+        display: none;
+    }
 
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .presentation > h1 {
+        font-size: 36px;
+    }
+    .presentation > h2 {
+        font-size: 24px;
+    }
+    .information{
+        display: flex;
+        padding: 50px 0px;
+        width: 100%;
+    }
+    .frame{
+        display: none;
+    }
+
+    .item {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        margin: 50px 0px;
+        align-items: center;
+
+    }
+
+    .item > .text > h3{
+        font-size: 3vw;
+    }
+    .item > .text > p{
+        font-size: 1vw;
+    }
+
+    .information > .item {
+        width: 100%;
+        height: fit-content;
+    }
+    .item > .img {
+        width: 100px;
+        height: fit-content;
+    }
+
+    .disclosure {
+        display: none;
+    }
 
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -277,6 +367,5 @@ h1 {
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
 }
 @media only screen and (min-width: 1201px) {
-
 
 }
