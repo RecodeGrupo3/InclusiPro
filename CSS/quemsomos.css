@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+body {
+    background: rgb(97, 255, 184);
+    background: linear-gradient(173deg, rgba(97, 255, 184, 1) 0%, rgba(198, 88, 255, 1) 100%);
+}
+    .logo{
+        width: 3em;
+    }
+    .conectadosIMG{
+        width: 50%;
+    }
+    
+    .titulo {
+        font-size: 65px;
+    }
+    
+    .caixa{
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+    }
+    
+    .direitosIMG{
+        width: 50em;
+    }
+    
+    .comofaremosIMG{
+        margin-top: 5em;
+    }
+    
+    .textoMissao{
+        font-size: 24px;
+    }
+    
+    .bordaTitulo {
+        border-bottom: 5px solid rgb(93, 207, 93);
+        width: 23em;
+        margin-left: 29em;
+        padding: 2em;
+    }
+    
+    .caixaEquipe{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .foto {
+        border-radius: 5em;
+        width: 10em;
+        height: 10em;
+        margin-right: 30em;
+        border-top: 1px solid grey;
+        float: left;
+        border-radius: 1px solid grey;
+        padding: 1em;
+    
+    }
+    
+    .foto2 {
+        border-radius: 5em;
+        width: 10em;
+        height: 10em;
+        margin-left: 70em;
+        border-top: 1px solid grey;
+        float: left;
+        border-radius: 1px solid grey;
+        padding: 1em;
+    
+    }
+    
+    
+    .borda {
+        border-bottom: solid 1px grey;
+        margin-bottom: -1em;
+    }
+    
+    .textoPerfil1{
+        padding-top: 2em;
+        
+    }
+    
+    .textoPerfil2{
+        padding-top: 2em;
+        
+    }
+
+
+    .pcd{
+        width: 80em;
+    }
+
+
+@media screen and (max-width: 500px) {
+    .cabecalho{
+        width: 40em;
+}
+    
+    .tituloTeste{
+        margin-left: 8em;
+    }
+    
+    .bordaTitulo {
+        width: 18em;
+        margin-left: 5em;
+    }
+    /* .caixaTop{
+        display: flex;
+        flex-direction: column;
+    } */
+    .conectadosIMG {
+        width: 50px;
+        height: 5px;
+        margin-left: 3em;
+    }
+
+    .titulo {
+        margin-right: -4em;
+    }
+
+    .caixa {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        margin-left: -4em;
+
+    }
+
+    .textoPro{
+        margin-left: 8em;
+    }
+
+    .direitosIMG {
+        width: 1em;
+        margin-left: -2em;
+        padding-bottom: 3em;
+    }
+
+    .textoMissao {
+        font-size: 16px;
+        margin-right: -5em;
+    }
+
+    .comofaremosIMG{
+        width: 18em;
+        margin-top: 3em;
+        margin-left: 8em;
+    }
+
+    .caixaEquipe {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    #foto3 {
+        margin-right: 5em;
+        
+    }
+
+
+    .textoPerfil1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        margin-left: -30em;
+        padding-top: 2em;
+    }
+
+    .textoPerfil2{
+       margin-top: -9em;
+       display: flex;
+       flex-direction: column;
+       width: 40%;
+
+    }
+
+    .pcd{
+        width: 25em;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .cabecalho{
+        width: 48em;
+    }
+
+    .teste{
+        margin-left: 6em;
+    }
+
+    .caixaTop{
+        display: flex;
+        flex-direction: column;
+    }
+    .bordaTitulo {
+        width: 18em;
+        margin-left: 20em;
+    }
+
+    .conectadosIMG {
+        width: 30em;
+        height: 30em;
+        margin-left: 5em;
+        padding-bottom: 3em;
+    }
+
+    .titulo {
+        font-size: 36px;
+        margin-left: em;
+     
+    }
+
+    .caixa {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+       
+    }
+
+    .direitosIMG {
+        width: 25em;
+        margin-left: 8em;
+        padding-bottom: 3em;
+    }
+
+    .textoMissao {
+        font-size: 16px;
+        margin-left: 10em;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .comofaremosIMG{
+        width: 30em;
+    }
+
+    .caixaEquipe {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3em;
+       
+    }
+
+
+
+    #foto3 {
+        margin-left: 30em;
+        
+    }
+
+
+    .textoPerfil1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        margin-left: -30em;
+        padding-top: 2em;
+    }
+
+    .textoPerfil2{
+       margin-top: -9em;
+       display: flex;
+       flex-direction: column;
+
+    }
+
+    .pcd{
+        width: 30em;
+        margin-left: 3em;
+    }
+}
