@@ -1,2 +1,2 @@
 # InclusiPro
-Projeto avaliativo do recode pro 2023. 
+Projeto avaliativo da Squad 03 para a Recode pro 2023. 
